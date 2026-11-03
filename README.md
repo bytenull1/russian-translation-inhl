@@ -9,11 +9,13 @@
 
 ## Установка
 
-1. Скачайте [BepInEx 5](https://github.com/BepInEx/BepInEx/releases/latest) (файл `BepInEx_win_x64_5.x.x.zip`)
-   и распакуйте его в папку игры.
+1. Скачайте [BepInEx 5](https://github.com/BepInEx/BepInEx/releases/latest) (файл `BepInEx_win_x64_5.x.x.zip`,
+   на Linux `BepInEx_linux_x64_5.x.x.zip`, на macOS `BepInEx_macos_universal_5.x.x.zip`) и распакуйте его в
+   папку игры (на macOS рядом с `.app`).
 2. Скачайте последний `RussianTranslation.dll` со страницы [Releases](https://github.com/bytenull1/russian-translation-inhl/releases/).
 3. Поместите `.dll` в `BepInEx/plugins/`.
-4. Запустите игру и выберите **Settings → Language → Russian**.
+4. Запустите игру (на Linux и macOS через `run_bepinex.sh`, указав в `executable_name` файл `.x86_64` или
+   папку `.app`) и выберите **Settings → Language → Russian**.
 
 Выбор сохраняется вместе с остальными настройками игры. Язык можно сменить и в главном меню, и в
 меню паузы. Чтобы удалить перевод, удалите папку плагина - игра вернётся к английскому.

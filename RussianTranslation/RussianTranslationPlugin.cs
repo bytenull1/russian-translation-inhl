@@ -14,7 +14,6 @@ namespace RussianTranslation
     /// English. No game files are replaced. See README.md.
     /// </summary>
     [BepInPlugin(Guid, "Russian Translation", "1.0.0")]
-    [BepInProcess("Isolated Inhale.exe")]
     public sealed class RussianTranslationPlugin : BaseUnityPlugin
     {
         public const string Guid = "com.bytenull1.russiantranslation";
