@@ -1,7 +1,7 @@
 # Русский перевод для Isolated Inhale
 
 Плагин для BepInEx 5, который добавляет **русский** в собственный список языков игры, рядом с
-официальными. Сделан для версии игры **0.8.9**.
+официальными. Обновлён для версии **0.9.0** (Mono).
 
 - Файлы игры не заменяются, поэтому обновление игры не ломает ни игру, ни перевод.
 - Строка, которой ещё нет в переводе, показывается на английском.
@@ -35,7 +35,7 @@ Spanish.
 `BepInEx/LogOutput.log`:
 
 ```
-[Info   :Russian Translation] Russian: 554/554 strings translated (0 in English, 0 obsolete, 0 placeholder warnings) from built-in translation.
+[Info   :Russian Translation] Russian: 623/623 strings translated (0 in English, 0 obsolete, 0 placeholder warnings) from built-in translation.
 ```
 
 Часть текста зашита в код игры (например, "Couldn't load selected save file"). Его нет в языковых файлах, поэтому он не переводится ни на один язык, и этот плагин тоже его не переводит.
@@ -97,7 +97,7 @@ dotnet build RussianTranslation/RussianTranslation.csproj -c Release
 ## Прошлые переводчики
 
 Русский текст основан на переводе игры от **L1th1** (Discord: `l1th1`) и **DAVEKRA** (Discord:
-`dmutro1250`) и обновлён для 0.8.9.
+`dmutro1250`) и обновлён для 0.9.0.
 
 ## Мои другие моды
 
